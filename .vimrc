@@ -1,14 +1,18 @@
 " Turn on the Wild menu
 set wildmenu
+set wildmode=longest:list,full
 
 " Ignore case when searching
 set ignorecase
 
 " Makes search act like search in modern browsers
-set incsearch 
+" set incsearch 
 
 " Enable syntax highlighting
 syntax enable 
+
+" show line numbers
+set number
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
@@ -32,4 +36,14 @@ set si "Smart indent
 set wrap "Wrap lines
 
 " Colorscheme
-colorscheme elflord
+colorscheme industry
+
+" Statusline
+set laststatus=2
+
+" tab for buffers
+map <tab> :bnext<cr>
+
+" Airline settings
+let g:airline_theme='luna'
+let g:airline#extensions#tabline#enabled = 1
