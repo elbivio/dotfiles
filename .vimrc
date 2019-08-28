@@ -2,6 +2,9 @@
 set nocompatible
 syntax on
 colorscheme jellybeans
+" mkdir -p ~/.vim/colors
+" cd ~/.vim/colors
+" curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim
 set encoding=utf8
 set laststatus=2
 set number
