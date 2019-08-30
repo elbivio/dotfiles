@@ -2,6 +2,9 @@
 set nocompatible
 syntax on
 colorscheme jellybeans
+""set background=dark
+""let g:solarized_termcolors=256
+""colorscheme solarized
 " mkdir -p ~/.vim/colors
 " cd ~/.vim/colors
 " curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim
