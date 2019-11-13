@@ -14,7 +14,7 @@ set number
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set background=dark
 set ruler
-set cursorline
+" set cursorline
 let python_highlight_all = 1
 filetype plugin on
 set timeout timeoutlen=5000 ttimeoutlen=100
